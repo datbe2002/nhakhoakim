@@ -3,24 +3,107 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-be-vietnam-pro);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-be-vietnam-pro);
+}
+
+@keyframes carousel {
+  0%, 15% {
+    transform: translateX(0);
+  }
+  20%, 35% {
+    transform: translateX(calc(-162px * 1)); /* 160px width + 2px gap */
+  }
+  40%, 55% {
+    transform: translateX(calc(-162px * 2));
+  }
+  60%, 75% {
+    transform: translateX(calc(-162px * 3));
+  }
+  80%, 95% {
+    transform: translateX(calc(-162px * 4));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 640px) {
+  @keyframes carousel {
+    0%, 15% {
+      transform: translateX(0);
+    }
+    20%, 35% {
+      transform: translateX(calc(-203px * 1)); /* 200px width + 3px gap */
+    }
+    40%, 55% {
+      transform: translateX(calc(-203px * 2));
+    }
+    60%, 75% {
+      transform: translateX(calc(-203px * 3));
+    }
+    80%, 95% {
+      transform: translateX(calc(-203px * 4));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  @keyframes carousel {
+    0%, 15% {
+      transform: translateX(0);
+    }
+    20%, 35% {
+      transform: translateX(calc(-244px * 1)); /* 240px width + 4px gap */
+    }
+    40%, 55% {
+      transform: translateX(calc(-244px * 2));
+    }
+    60%, 75% {
+      transform: translateX(calc(-244px * 3));
+    }
+    80%, 95% {
+      transform: translateX(calc(-244px * 4));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  @keyframes carousel {
+    0%, 15% {
+      transform: translateX(0);
+    }
+    20%, 35% {
+      transform: translateX(calc(-284px * 1)); /* 280px width + 4px gap */
+    }
+    40%, 55% {
+      transform: translateX(calc(-284px * 2));
+    }
+    60%, 75% {
+      transform: translateX(calc(-284px * 3));
+    }
+    80%, 95% {
+      transform: translateX(calc(-284px * 4));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+.animate-carousel {
+  animation: carousel 15s ease infinite;
 }
