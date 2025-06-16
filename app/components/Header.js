@@ -70,7 +70,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-2">
             {/* Book Appointment Button */}
             <Link
-              href="/dat-hen"
+              href="/dat-lich-hen"
               className="bg-red-600 text-white px-4 h-[40px] flex items-center rounded transition-all hover:-translate-y-[2px]"
             >
               ĐẶT HẸN
