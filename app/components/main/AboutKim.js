@@ -9,8 +9,8 @@ const AboutKim = () => {
     <div className="flex flex-col py-10 gap-4">
       <HeroSection />
       {/* h-[30vh] sm:h-[40vh] md:h-[50vh] lg:h-[60vh] */}
-      <div className="flex flex-row py-10 gap-4 mt-[30vh] sm:mt-[40vh] md:mt-[50vh] lg:mt-[60vh]">
-        <div className="w-1/2 flex flex-col gap-6">
+      <div className="flex flex-col md:flex-col lg:flex-row py-10 gap-4 mt-[30vh] sm:mt-[40vh] md:mt-[50vh] lg:mt-[60vh]">
+        <div className="w-full lg:w-1/2 flex flex-col gap-6">
           <h1 className="text-4xl font-bold">Về Nha Khoa Kim</h1>
           <p>
             Là chuỗi Phòng khám Nha khoa uy tín Việt Nam với đội ngũ Bác sĩ điều
@@ -68,7 +68,7 @@ const AboutKim = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2 flex items-center justify-center">
+        <div className="w-full lg:w-1/2 flex items-center justify-center">
           <AboutSection />
         </div>
       </div>
