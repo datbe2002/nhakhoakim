@@ -50,7 +50,7 @@ const SubFooter2 = () => {
   };
 
   return (
-    <div className="py-8 bg-white">
+    <div className="py-8 bg-[#f8f9fa]">
       <div className="max-w-[1920px] mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-96">
         <h2 className="text-[#f26522] text-2xl font-medium mb-8">
           Hệ thống Nha Khoa Kim
