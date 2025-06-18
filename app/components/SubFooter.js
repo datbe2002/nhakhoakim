@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const SubFooter = () => {
   const certificates = [
@@ -37,31 +38,33 @@ const SubFooter = () => {
       <h2 className="text-center text-white text-xl font-bold bg-[#005f9d] p-2 w-full">
         NHA KHOA TIÊU CHUẨN CHẤT LƯỢNG
       </h2>
-      <div className="max-w-[1920px] mx-auto">
-        <div className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-96 relative h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px]">
-          <div className="py-4 sm:py-6 md:py-8 overflow-hidden w-full">
-            <div className="animate-carousel flex gap-2 sm:gap-3 md:gap-4">
-              {allCertificates.map((cert, index) => (
-                <div
-                  key={index}
-                  className="flex-none w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px] p-2 sm:p-3 md:p-4"
-                >
-                  <div className="relative w-full">
-                    <Image
-                      src={cert.src}
-                      alt={cert.alt}
-                      width={280}
-                      height={200}
-                      style={{ objectFit: "contain" }}
-                      className="w-full h-auto"
-                    />
+      <Link href="/chat-luong" className="block cursor-pointer">
+        <div className="max-w-[1920px] mx-auto">
+          <div className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-96 relative h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px]">
+            <div className="w-full py-4 overflow-hidden sm:py-6 md:py-8">
+              <div className="flex gap-2 animate-carousel sm:gap-3 md:gap-4">
+                {allCertificates.map((cert, index) => (
+                  <div
+                    key={index}
+                    className="flex-none w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px] p-2 sm:p-3 md:p-4"
+                  >
+                    <div className="relative w-full">
+                      <Image
+                        src={cert.src}
+                        alt={cert.alt}
+                        width={280}
+                        height={200}
+                        style={{ objectFit: "contain" }}
+                        className="w-full h-auto"
+                      />
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };
