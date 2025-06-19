@@ -4,10 +4,10 @@ import Image from "next/image";
 const Header = () => {
   return (
     <header className="w-full border-b border-gray-200 h-[72px]">
-      <div className="max-w-[1920px] mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-96">
+      <div className="max-w-[1140px] mx-auto">
         <nav className="flex items-center justify-between h-full gap-2">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/#" className="flex items-center gap-2">
             <div className="w-15 h-15 relative">
               <Image
                 src="/nhakhoakimlogo.svg"
@@ -26,7 +26,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-8">
             <div className="relative group">
               <Link
-                href="/gioi-thieu"
+                href="/#"
                 className="text-gray-700 hover:text-blue-600 py-6"
               >
                 Giới thiệu
@@ -35,30 +35,24 @@ const Header = () => {
 
             <div className="relative group">
               <Link
-                href="/dich-vu"
+                href="/#"
                 className="text-gray-700 hover:text-blue-600 py-6"
               >
                 Dịch vụ
               </Link>
             </div>
 
-            <Link
-              href="/bang-gia"
-              className="text-gray-700 hover:text-blue-600 py-6"
-            >
+            <Link href="/#" className="text-gray-700 hover:text-blue-600 py-6">
               Bảng giá
             </Link>
 
-            <Link
-              href="/tin-tuc"
-              className="text-gray-700 hover:text-blue-600 py-6"
-            >
+            <Link href="/#" className="text-gray-700 hover:text-blue-600 py-6">
               Tin tức
             </Link>
 
             <div className="relative group">
               <Link
-                href="/tri-an"
+                href="/#"
                 className="text-gray-700 hover:text-blue-600 py-6"
               >
                 Tri ân
@@ -70,7 +64,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-2">
             {/* Book Appointment Button */}
             <Link
-              href="/dat-lich-hen"
+              href="/#"
               className="bg-red-600 text-white px-4 h-[40px] flex items-center rounded transition-all hover:-translate-y-[2px]"
             >
               ĐẶT HẸN
@@ -101,7 +95,7 @@ const Header = () => {
             {/* Language Selector */}
             <div className="flex items-center">
               <Link
-                href="/en"
+                href="/#"
                 className="flex gap-2 items-center text-sm bg-[#005f9d] text-white px-4 h-[40px] rounded transition-all hover:-translate-y-[2px]"
               >
                 <Image src="/UKFlag.png" alt="English" width={20} height={20} />

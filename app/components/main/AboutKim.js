@@ -9,7 +9,7 @@ const AboutKim = () => {
     <div className="flex flex-col py-10 gap-4">
       <HeroSection />
       {/* h-[30vh] sm:h-[40vh] md:h-[50vh] lg:h-[60vh] */}
-      <div className="flex flex-col md:flex-col lg:flex-row py-10 gap-4 mt-[30vh] sm:mt-[40vh] md:mt-[50vh] lg:mt-[60vh]">
+      <div className="flex flex-col md:flex-col lg:flex-row py-10 gap-4 mt-[30vh] sm:mt-[40vh] md:mt-[50vh] lg:mt-[60vh] p-4">
         <div className="w-full lg:w-1/2 flex flex-col gap-6">
           <h1 className="text-4xl font-bold">Về Nha Khoa Kim</h1>
           <p>
@@ -23,7 +23,7 @@ const AboutKim = () => {
             <div className="flex flex-row items-center">
               <FaRegHandPointRight className="text-red-500 mr-1" />
               <Link
-                href="/"
+                href="/#"
                 className="text-blue-500 hover:text-blue-700 cursor-pointer"
               >
                 Được Quỹ Temasek thuộc sở hữu Chính phủ Singapore đầu tư.
@@ -33,7 +33,7 @@ const AboutKim = () => {
             <div className="flex flex-row items-center">
               <FaRegHandPointRight className="text-red-500 mr-1" />
               <Link
-                href="/"
+                href="/#"
                 className="text-blue-500 hover:text-blue-700 cursor-pointer"
               >
                 Đối tác toàn cầu của đại học Harvard.
@@ -42,7 +42,7 @@ const AboutKim = () => {
             <div className="flex flex-row items-center">
               <FaRegHandPointRight className="text-red-500 mr-1" />
               <Link
-                href="/"
+                href="/#"
                 className="text-blue-500 hover:text-blue-700 cursor-pointer"
               >
                 100% đội ngũ Bác sĩ có chứng chỉ hành nghề.
@@ -51,7 +51,7 @@ const AboutKim = () => {
             <div className="flex flex-row items-center">
               <FaRegHandPointRight className="text-red-500 mr-1" />
               <Link
-                href="/"
+                href="/#"
                 className="text-blue-500 hover:text-blue-700 cursor-pointer"
               >
                 Phòng tiệt khuẩn một chiều tuân thủ quy định của Sở Y tế.
@@ -60,7 +60,7 @@ const AboutKim = () => {
             <div className="flex flex-row items-center">
               <FaRegHandPointRight className="text-red-500 mr-1" />
               <Link
-                href="/"
+                href="/#"
                 className="text-blue-500 hover:text-blue-700 cursor-pointer"
               >
                 4 khác biệt tạo nên uy tín chất lượng của Nha khoa Kim.
