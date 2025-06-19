@@ -36,9 +36,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <main className="w-full relative">
-          <div className="max-w-[1920px] mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-96">
-            {children}
-          </div>
+          <div className="max-w-[1140px] mx-auto">{children}</div>
         </main>
         <SubFooter />
         <SubFooter2 />

@@ -98,14 +98,14 @@ const Footer = () => {
             </div>
             <div className="space-y-2 flex gap-2 flex-row">
               <Link
-                href="/privacy"
+                href="/#"
                 className="block hover:text-gray-200 transition-colors"
               >
                 Chính sách bảo mật
               </Link>
               {"|"}
               <Link
-                href="/terms"
+                href="/#"
                 className="block hover:text-gray-200 transition-colors"
               >
                 Chính sách bảo hành

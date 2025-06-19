@@ -161,7 +161,7 @@ export default function ImplantTechnologyPage() {
                     Máng định vị là dụng cụ chuyên dụng hỗ trợ quá trình{" "}
                     <strong>
                       <a
-                        href="/trong-rang-implant-nhung-dieu-ban-can-biet.html"
+                        href="/#"
                         className="text-blue-600 hover:text-blue-800"
                       >
                         trồng răng Implant
@@ -494,13 +494,13 @@ export default function ImplantTechnologyPage() {
                 <span className="text-sm text-gray-600">Chuyên mục</span>
                 <div className="flex flex-wrap gap-2 mt-2">
                   <a
-                    href="/hoat-dong-nha-khoa-kim"
+                    href="/#"
                     className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm hover:bg-blue-200"
                   >
                     Hoạt động Nha Khoa Kim
                   </a>
                   <a
-                    href="/kien-thuc-nha-khoa"
+                    href="/#"
                     className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm hover:bg-blue-200"
                   >
                     Kiến Thức Nha Khoa
@@ -515,10 +515,7 @@ export default function ImplantTechnologyPage() {
               <h4 className="text-lg font-semibold mb-4">Tin mới nhất</h4>
               <div className="space-y-4">
                 <article className="mb-4">
-                  <a
-                    href="/nha-khoa-kim-duoc-vinh-danh-top-20-giai-thuong-thanh-tuu-y-khoa-viet-nam-2024.html"
-                    className="block"
-                  >
+                  <a href="/#" className="block">
                     <img
                       src="/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-1.webp"
                       alt="Nha Khoa Kim đạt được Thành tựu Y khoa 2024"
@@ -532,10 +529,7 @@ export default function ImplantTechnologyPage() {
                 </article>
 
                 <article className="mb-4">
-                  <a
-                    href="/nha-khoa-kim-tu-hao-la-doi-tac-toan-cau-cua-dai-hoc-harvard.html"
-                    className="block"
-                  >
+                  <a href="/#" className="block">
                     <img
                       src="/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-2.webp"
                       alt="Nha Khoa Kim hân hạnh đồng hành cùng trường Đại học Harvard"
@@ -549,10 +543,7 @@ export default function ImplantTechnologyPage() {
                 </article>
 
                 <article className="mb-4">
-                  <a
-                    href="/chinh-thuc-ra-mat-zalo-app-nha-khoa-kim-voi-nhieu-tien-ich-cho-khach-hang.html"
-                    className="block"
-                  >
+                  <a href="/#" className="block">
                     <img
                       src="/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-3.webp"
                       alt="Chính thức ra mắt Zalo App Nha Khoa Kim"
@@ -566,10 +557,7 @@ export default function ImplantTechnologyPage() {
                 </article>
 
                 <article className="mb-4">
-                  <a
-                    href="/nha-khoa-kim-voi-doi-tac-tin-cay-invisalign-hoa-ky-va-implant-straumann-thuy-sy.html"
-                    className="block"
-                  >
+                  <a href="/#" className="block">
                     <img
                       src="/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-4.webp"
                       alt="Nha Khoa Kim đối tác tin cậy của Invisalign Hoa Kỳ và Implant Straumann Thụy Sỹ"
@@ -583,10 +571,7 @@ export default function ImplantTechnologyPage() {
                 </article>
 
                 <article>
-                  <a
-                    href="/nhung-con-so-cuc-an-tuong-cua-hanh-trinh-rang-hanh-phuc-thang-10.html"
-                    className="block"
-                  >
+                  <a href="/#" className="block">
                     <img
                       src="/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-5.webp"
                       alt="Những con số cực ấn tượng của Hành trình răng hạnh phúc tháng 10"
