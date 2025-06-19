@@ -1,11 +1,9 @@
 "use client";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import ArticleLayout from "../components/ArticleLayout";
-import TableOfContents from "../components/TableOfContents";
-import SocialShare from "../components/SocialShare";
 import RelatedArticles from "../components/RelatedArticles";
+import SocialShare from "../components/SocialShare";
+import TableOfContents from "../components/TableOfContents";
 
 export default function ImplantTechnologyPage() {
   const tocItems = [
@@ -119,7 +117,7 @@ export default function ImplantTechnologyPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <main className="container mx-auto px-4 py-8 max-w-4xl">
+      <main className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
           Trồng Răng Implant An Toàn Chính Xác Với Máng Định Vị 3D
         </h1>
