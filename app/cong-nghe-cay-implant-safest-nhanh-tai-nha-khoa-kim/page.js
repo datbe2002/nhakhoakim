@@ -1,11 +1,9 @@
 "use client";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import ArticleLayout from "../components/ArticleLayout";
-import TableOfContents from "../components/TableOfContents";
-import SocialShare from "../components/SocialShare";
 import RelatedArticles from "../components/RelatedArticles";
+import SocialShare from "../components/SocialShare";
+import TableOfContents from "../components/TableOfContents";
 
 export default function ImplantTechnologyPage() {
   const tocItems = [
@@ -78,48 +76,56 @@ export default function ImplantTechnologyPage() {
     {
       title: "Trẻ bị cam miệng: Nguyên nhân, triệu chứng và cách điều trị",
       url: "/tre-bi-cam-mieng.html",
-      image: "/images/implant/cam-mieng.jpg",
+      image:
+        "/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-1.webp",
     },
     {
       title: "Nguyên nhân bị mọc thừa răng? Răng thừa có cần nhổ bỏ không?",
       url: "/rang-thua-co-can-nho-khong.html",
-      image: "/images/implant/rang-thua.jpg",
+      image:
+        "/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-2.webp",
     },
     {
       title: "Hàm giữ khoảng là gì? Công dụng và các loại phổ biến",
       url: "/ham-giu-khoang-la-gi.html",
-      image: "/images/implant/ham-giu-khoang.jpg",
+      image:
+        "/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-3.webp",
     },
     {
       title: "9 Mẹo chữa đau răng sâu cấp tốc, hiệu quả tại nhà",
       url: "/meo-chua-dau-rang-sau.html",
-      image: "/images/implant/dau-rang-sau.jpg",
+      image:
+        "/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-4.webp",
     },
     {
       title: "Trám răng tạm thời để làm gì? Khi nào cần trám tạm thời?",
       url: "/tram-rang-tam-thoi-de-lam-gi.html",
-      image: "/images/implant/tram-rang.jpg",
+      image:
+        "/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-5.webp",
     },
     {
       title: "Vì sao hơi thở có mùi dù đã vệ sinh răng miệng sạch sẽ?",
       url: "/vi-sao-hoi-tho-co-mui.html",
-      image: "/images/implant/hoi-tho.jpg",
+      image:
+        "/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-6.webp",
     },
     {
       title: "Cao răng đen: Nguyên nhân, tác hại và cách loại bỏ hiệu quả",
       url: "/cao-rang-den.html",
-      image: "/images/implant/cao-rang-den.jpg",
+      image:
+        "/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-7.webp",
     },
     {
       title: "Hướng dẫn cách đếm và đọc tên các loại răng",
       url: "/cach-dem-va-doc-ten-cac-loai-rang.html",
-      image: "/images/implant/cach-dem-rang.jpg",
+      image:
+        "/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-8.webp",
     },
   ];
 
   return (
     <div className="min-h-screen bg-white">
-      <main className="container mx-auto px-4 py-8 max-w-4xl">
+      <main className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
           Trồng Răng Implant An Toàn Chính Xác Với Máng Định Vị 3D
         </h1>
@@ -508,13 +514,13 @@ export default function ImplantTechnologyPage() {
             <div className="sticky top-8">
               <h4 className="text-lg font-semibold mb-4">Tin mới nhất</h4>
               <div className="space-y-4">
-                <article className="border-b pb-4">
+                <article className="mb-4">
                   <a
                     href="/nha-khoa-kim-duoc-vinh-danh-top-20-giai-thuong-thanh-tuu-y-khoa-viet-nam-2024.html"
                     className="block"
                   >
                     <img
-                      src="/images/implant/thanh-tuu-y-khoa-2024.jpg"
+                      src="/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-1.webp"
                       alt="Nha Khoa Kim đạt được Thành tựu Y khoa 2024"
                       className="w-full h-32 object-cover rounded mb-2"
                     />
@@ -525,13 +531,13 @@ export default function ImplantTechnologyPage() {
                   </a>
                 </article>
 
-                <article className="border-b pb-4">
+                <article className="mb-4">
                   <a
                     href="/nha-khoa-kim-tu-hao-la-doi-tac-toan-cau-cua-dai-hoc-harvard.html"
                     className="block"
                   >
                     <img
-                      src="/images/implant/harvard-partnership.jpg"
+                      src="/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-2.webp"
                       alt="Nha Khoa Kim hân hạnh đồng hành cùng trường Đại học Harvard"
                       className="w-full h-32 object-cover rounded mb-2"
                     />
@@ -542,13 +548,13 @@ export default function ImplantTechnologyPage() {
                   </a>
                 </article>
 
-                <article className="border-b pb-4">
+                <article className="mb-4">
                   <a
                     href="/chinh-thuc-ra-mat-zalo-app-nha-khoa-kim-voi-nhieu-tien-ich-cho-khach-hang.html"
                     className="block"
                   >
                     <img
-                      src="/images/implant/zalo-app.jpg"
+                      src="/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-3.webp"
                       alt="Chính thức ra mắt Zalo App Nha Khoa Kim"
                       className="w-full h-32 object-cover rounded mb-2"
                     />
@@ -559,13 +565,13 @@ export default function ImplantTechnologyPage() {
                   </a>
                 </article>
 
-                <article className="border-b pb-4">
+                <article className="mb-4">
                   <a
                     href="/nha-khoa-kim-voi-doi-tac-tin-cay-invisalign-hoa-ky-va-implant-straumann-thuy-sy.html"
                     className="block"
                   >
                     <img
-                      src="/images/implant/invisalign-straumann.jpg"
+                      src="/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-4.webp"
                       alt="Nha Khoa Kim đối tác tin cậy của Invisalign Hoa Kỳ và Implant Straumann Thụy Sỹ"
                       className="w-full h-32 object-cover rounded mb-2"
                     />
@@ -582,7 +588,7 @@ export default function ImplantTechnologyPage() {
                     className="block"
                   >
                     <img
-                      src="/images/implant/hanh-trinh-rang-hanh-phuc.jpg"
+                      src="/images/implant/trong-rang-Implant-chinh-xac-mang-dinh-vi-Nha-Khoa-Kim-5.webp"
                       alt="Những con số cực ấn tượng của Hành trình răng hạnh phúc tháng 10"
                       className="w-full h-32 object-cover rounded mb-2"
                     />
