@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { articles } from "../data/articles";
+import { articles } from "../mock-data/articles";
 import { usePagination } from "../hooks/usePagination";
 
 const News = () => {

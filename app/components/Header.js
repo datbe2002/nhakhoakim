@@ -46,7 +46,10 @@ const Header = () => {
               Bảng giá
             </Link>
 
-            <Link href="/#" className="text-gray-700 hover:text-blue-600 py-6">
+            <Link
+              href="/tin-tuc"
+              className="text-gray-700 hover:text-blue-600 py-6"
+            >
               Tin tức
             </Link>
 

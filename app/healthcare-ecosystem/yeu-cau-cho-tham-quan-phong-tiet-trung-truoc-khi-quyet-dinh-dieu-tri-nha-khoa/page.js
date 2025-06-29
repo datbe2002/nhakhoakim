@@ -516,22 +516,20 @@ export default function ArticlePage() {
             {/* Social Share */}
             <div className="flex items-center gap-4 py-6 border-t border-gray-200">
               <span className="text-gray-600">Chia sẻ</span>
-              <a
-                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnhakhoakim.com%2Fhealthcare-ecosystem%2Fyeu-cau-cho-tham-quan-phong-tiet-trung-truoc-khi-quyet-dinh-dieu-tri-nha-khoa"
+              <Link
+                href="#"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
               >
                 Facebook
-              </a>
-              <a
-                href="https://twitter.com/share?text=⚠️ Cảnh báo nhiễm khuẩn chéo: Đừng vệ sinh răng khi chưa kiểm tra khu vô trùng&url=https%3A%2F%2Fnhakhoakim.com%2Fhealthcare-ecosystem%2Fyeu-cau-cho-tham-quan-phong-tiet-trung-truoc-khi-quyet-dinh-dieu-tri-nha-khoa"
+              </Link>
+              <Link
+                href="#"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-900 transition-colors"
               >
                 Twitter
-              </a>
+              </Link>
             </div>
           </div>
         </article>
